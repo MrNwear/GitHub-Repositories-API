@@ -31,8 +31,7 @@ export default function App() {
             milango
           </Text>
         </View>
-        <ExploreScreen />
-        {/* <NavigationContainer>
+        <NavigationContainer>
           <Tab.Navigator
             screenOptions={{
               tabBarActiveTintColor: '#662ab0',
@@ -50,7 +49,7 @@ export default function App() {
             <Tab.Screen name="Explore" component={ExploreScreen} />
             <Tab.Screen name="Repositories" component={RepositoriesScreen} />
           </Tab.Navigator>
-        </NavigationContainer> */}
+        </NavigationContainer>
       </View>
     </SafeAreaView>
   );
